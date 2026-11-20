@@ -1,0 +1,113 @@
+
+# =====================================
+# PYTHON
+# =====================================
+
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+.python-version
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Python testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# =====================================
+# FASTAPI / BACKEND
+# =====================================
+
+*.log
+logs/
+instance/
+uploads/
+temp/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# =====================================
+# NODE.JS / WEB FRONTEND
+# =====================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build outputs
+.next/
+.nuxt/
+dist/
+build/
+out/
+.vite/
+coverage/
+
+# React / Vue / Angular
+.cache/
+.parcel-cache/
+.angular/
+.svelte-kit/
+
+# =====================================
+# IDE / EDITORS / OS
+# =====================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+
+# =====================================
+# STREAMLIT
+# =====================================
+.streamlit/secrets.toml
+.streamlit/
+
+# =====================================
+# DATABASE
+# =====================================
+
+*.sqlite3
+*.db
+*.db-journal
+
+# =====================================
+# SECURITY / PRIVATE FILES
+# =====================================
+
+*.pem
+*.key
+secrets.json
+credentials.json
