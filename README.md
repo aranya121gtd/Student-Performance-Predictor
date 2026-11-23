@@ -7,6 +7,7 @@ A Streamlit dashboard built around the uploaded notebook and CSV dataset.
 - Math, reading and writing score distributions
 - Score trends by study time and test-preparation course
 - Individual student prediction using three TabNet regression models
+- Bulk student prediction via Excel (`.xlsx`, `.xls`) or CSV file upload with downloadable templates and results export
 - Test-set evaluation using R², MAE and RMSE
 - Dataset preview and missing-value explorer
 
